@@ -1,4 +1,3 @@
-```markdown
 # HandMirror-AI 🤖🖐️
 
 Progetto di controllo servo motori per dita robotiche tramite riconoscimento gesti manuali con MediaPipe e ESP32.
