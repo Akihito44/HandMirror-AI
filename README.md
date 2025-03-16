@@ -5,13 +5,19 @@ Progetto di controllo servo motori per dita robotiche tramite riconoscimento ges
 ![Demo]()
 
 ## Componenti Richiesti
-- **Hardware**:
-  - Scheda ESP32-S3
-  - 5x Servo motori (SG90 o equivalenti)
-  - Webcam
-- **Software**:
+**Necessario:**
+- Modulo ESP32-S3
+- 5x Servo motori (**consigliati: SG90**, qualsiasi servomotore con un angolo di rotazione di almeno 180°)
+- Webcam
+
+**Opzionale:**
+- Breadbord
+- Jamper (M-M e M-F)
+- 5x Condensatori 480μF 16V
+
+## Software Richiesti
   - Python 3.11
-  - Librerie: OpenCV, MediaPipe, PySerial
+  - Librerie Python: OpenCV, MediaPipe, PySerial
   - IDE Arduino (per firmware ESP32)
 
 ## Configurazione Ambiente Virtuale Python
@@ -44,7 +50,9 @@ Progetto di controllo servo motori per dita robotiche tramite riconoscimento ges
    Anulare: GPIO12
    Mignolo: GPIO13
    ```
-2. **Carica il firmware**:
+   ![Schema circuito su ESP32 senza condensatori](esp32.png)
+   ![Schema circuito su Arduino Uno](arduino.png)
+3. **Carica il firmware**:
    - Apri `Arduino-code.ino` con IDE Arduino.
    - Seleziona la scheda "ESP32-S3 Dev Module".
    - Imposta la porta seriale corretta (es: `COM3` su Windows).
