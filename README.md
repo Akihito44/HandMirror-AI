@@ -114,7 +114,7 @@ HandMirror-AI è un sistema di controllo in real-time di una mano robotica basat
 >   - Scaricare  [driver CH343](https://www.wch.cn/downloads/CH343SER_EXE.html).
 >   - Nome file: `CH34XSER_MAC.ZIP`.
 > - **Linux**:
->   - Scaricare [driver CH343](https://github.com/Akihito44/HandMirror-AI/tree/main/CH343/Linux/ch343ser_linux).
+>   - Scaricare [driver CH343](https://github.com/Akihito44/CH343-serial-driver/tree/main/Linux/ch343_ser_linux).
 >   - Seguire le istruzioni contenute nel file `README.md`.
 
 ### Configurazione ESP32
