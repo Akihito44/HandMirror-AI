@@ -1,23 +1,36 @@
 # HandMirror-AI 🤖🖐️
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Open Issues](https://img.shields.io/github/issues/Akihito44/HandMirror-AI)](https://github.com/Akihito44/HandMirror-AI/issues)
 [![Arduino IDE](https://img.shields.io/badge/arduino_ide-2.3.6-red.svg)](https://www.arduino.cc/en/software/)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
 [![OpenCV](https://img.shields.io/badge/opencv-4.11.0-green.svg)](https://opencv.org/)
 [![Mediapipe](https://img.shields.io/badge/mediapipe-0.10.5-red.svg)](https://mediapipe.dev/)
-[![Open Issues](https://img.shields.io/github/issues/Akihito44/HandMirror-AI)](https://github.com/Akihito44/HandMirror-AI/issues)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## ✨ Funzionalità
+*Read this in other languages: [English](README.EN.md).*
+
+## 📖 Indice
+- [✨ Funzionalità](#funzionalità)
+- [🎥 Demo](#demo)
+- [🧰 Componenti Richiesti](#componenti-richiesti)
+- [⚙️ Installazione](#installazione-e-configurazione)
+- [🚀 Esecuzione](#esecuzione-del-progetto)
+- [🧠 Note Tecniche](#note-tecniche)
+- [🔍 Risoluzione Problemi](#risoluzione-problemi)
+- [📄 Licenza](#licenza)
+
+## Funzionalità
 - Realtime hand tracking a 30 FPS
 - Sfrutta l'Intelligenza Artificiale
 - Calibrazione automatica servo-motori
 - Supporto multi-piattaforma
 
-## 🎥 Demo
+## Demo
 Implementazione di un sistema IA con MediaPipe e ESP32 per il controllo di dita robotiche tramite riconoscimento dei gesti, replicando i movimenti umani su una mano robotica.
 
 ![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGQ5Z2F0dWl0bHh4NWR1M3hqZ2Y4Y2R1dGF5dWl6dXh1dG1vZ3J2dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7kn27lnYSAxQWHo2aK/giphy.gif)
 
-## 🧰 Componenti Richiesti
+## Componenti Richiesti
 ### Hardware
 - **Necessario:**
    | Componente    | Quantità | Specifiche          |
@@ -38,7 +51,7 @@ Implementazione di un sistema IA con MediaPipe e ESP32 per il controllo di dita 
   - Librerie Python: OpenCV, MediaPipe, PySerial
   - IDE Arduino (per firmware ESP32)
 
-## ⚙️ Installazione e Configurazione
+## Installazione e Configurazione
 ### Download Repository
 - **Tramite git nel terminale**:
    - Aprire il terminale nella cartella di destinazione.
@@ -121,7 +134,7 @@ Implementazione di un sistema IA con MediaPipe e ESP32 per il controllo di dita 
    - Imposta la porta seriale corretta (es: `COM3` su Windows).
    - Compila e carica il codice.
 
-## 🚀 Esecuzione del Progetto
+## Esecuzione del Progetto
 ### Modalità Base (Solo Visione)
 - **Avvia lo script Python**:
    ```bash
@@ -142,7 +155,7 @@ Implementazione di un sistema IA con MediaPipe e ESP32 per il controllo di dita 
    - Le dita rilevate controllano i servo motori (1 = piegato, 0 = disteso).
    - Premi `Q` per uscire.
 
-## 🛠️ Note Tecniche
+## Note Tecniche
 ### Intelligenza Artificiale
 1. **Pipeline di Riconoscimento**:
    ```mermaid
@@ -216,7 +229,7 @@ HandMirror-AI/
 └── LICENSE
 ```
 
-## 🔍 Risoluzione Problemi
+## Risoluzione Problemi
 - **Errore porta seriale**:
   - Verifica che l'ESP32 sia collegato e riconosciuto dal sistema.
   - Assicurati che i driver della porta seriale siano installati (es. driver CH343: [scarica qui](https://www.wch-ic.com/search?t=all&q=ch343)).
@@ -227,5 +240,5 @@ HandMirror-AI/
   pip install --upgrade [nome_libreria]
   ```
 
-## 📄 Licenza
+## Licenza
 Distribuito sotto licenza MIT. Vedi [LICENSE](LICENSE) per dettagli.
