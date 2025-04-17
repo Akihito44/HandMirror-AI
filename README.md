@@ -10,46 +10,45 @@
 *Read this in other languages: [English](README.EN.md).*
 
 ## 📖 Indice
-- [✨ Funzionalità](#funzionalità)
-- [🎥 Demo](#demo)
-- [🧰 Componenti Richiesti](#componenti-richiesti)
+- [🎥 Panoramica](#panoramica)
+- [🔥 Funzionalità](#funzionalità)
+- [🛠️ Componenti necessari](#componenti-necessari)
 - [⚙️ Installazione](#installazione-e-configurazione)
 - [🚀 Esecuzione](#esecuzione-del-progetto)
 - [🧠 Note Tecniche](#note-tecniche)
 - [🔍 Risoluzione Problemi](#risoluzione-problemi)
 - [📄 Licenza](#licenza)
 
-## Funzionalità
-- Realtime hand tracking a 30 FPS
-- Sfrutta l'Intelligenza Artificiale
-- Calibrazione automatica servo-motori
-- Supporto multi-piattaforma
-
-## Demo
-Implementazione di un sistema IA con MediaPipe e ESP32 per il controllo di dita robotiche tramite riconoscimento dei gesti, replicando i movimenti umani su una mano robotica.
+## Panoramica
+HandMirror-AI è un sistema di controllo in real-time di una mano robotica basato su Intelligenza Artificiale. Utilizzando MediaPipe per il riconoscimento delle gesture e un modulo ESP32-S3 per pilotare i servo, riproduci in modo fedele i movimenti della tua mano su dita robotiche.
 
 ![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGQ5Z2F0dWl0bHh4NWR1M3hqZ2Y4Y2R1dGF5dWl6dXh1dG1vZ3J2dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7kn27lnYSAxQWHo2aK/giphy.gif)
 
-## Componenti Richiesti
-### Hardware
-- **Necessario:**
-   | Componente    | Quantità | Specifiche          |
-   | ------------- | :------: | ------------------- |
-   | ESP32-S3      | 1        | 240MHz, 512KB PSRAM |
-   | Servo SG90    | 5        | 180°, 0.12s/60°     |
-   | Alimentazione | 1        | 5V                  |
-   | Jammer        | ~20      | M-M e M-F           |
-   | Webcam        | 1        | Integrata o USB     |
-- **Opzionale:**
-   | Componente   | Quantità | Specifiche |
-   | ------------ | :------: | ---------- |
-   | Breadboard   | 1        | Full size  |
-   | Condensatori | 5        | 480μF, 16V |
+## Funzionalità
+- 🎯 **Tracking mano in tempo reale** a 30 FPS
+- 🤖 **IA avanzata** con pipeline MediaPipe e reticolo CNN ottimizzato
+- ⚙️ **Calibrazione automatica** dei servo-motori per massima precisione
+- 🌐 **Cross-platform**: Windows, macOS, Linux
 
-### Software
-  - Python 3.11
-  - Librerie Python: OpenCV, MediaPipe, PySerial
-  - IDE Arduino (per firmware ESP32)
+## Componenti necessari
+### Hardware richiesto
+| Componente    | Q.tà | Specifiche          |
+| ------------- | :--: | ------------------- |
+| ESP32-S3      | 1    | 240MHz, 512KB PSRAM |
+| Servo SG90    | 5    | 180°, 0.12s/60°     |
+| Alimentazione | 1    | 5 V DC              |
+| Jammer        | ~20  | M-M e M-F           |
+| Webcam        | 1    | USB o integrata     |
+
+### Hardware opzionale
+| Componente   | Q.tà | Specifiche |
+| ------------ | :--: | ---------- |
+| Breadboard   | 1    | Full size  |
+| Condensatori | 5    | 480μF, 16V |
+
+### Software richiesto
+  - **Python 3.11** + librerie: `opencv-python`, `mediapipe==0.10.5`, `pyserial`
+  - **Arduino IDE** (>= v2.3.6) con supporto **ESP32**
 
 ## Installazione e Configurazione
 ### Download Repository
@@ -107,16 +106,16 @@ Implementazione di un sistema IA con MediaPipe e ESP32 per il controllo di dita 
    - Esempio dei parametri della scheda *Freenove ESP32-S3-WROOM*:  
    ![Configuration](./images/Arduino_Configuration.png)
 
-### Installazione Driver (Importante)
-- **Windows**:
-  - Scaricare  [driver CH343](https://www.wch.cn/downloads/CH343SER_EXE.html).
-  - Nome file: `CH343SER.EXE`.
-- **MAC**:
-  - Scaricare  [driver CH343](https://www.wch.cn/downloads/CH343SER_EXE.html).
-  - Nome file: `CH34XSER_MAC.ZIP`.
-- **Linux**:
-  - Scaricare [driver CH343](https://github.com/Akihito44/HandMirror-AI/tree/main/CH343/Linux/ch343ser_linux).
-  - Seguire le istruzioni contenute nel file `README.md`.
+> ⚠️ Non dimenticare di installare i driver CH343 se il sistema non riconosce l’ESP32:
+> - **Windows**:
+>   - Scaricare  [driver CH343](https://www.wch.cn/downloads/CH343SER_EXE.html).
+>   - Nome file: `CH343SER.EXE`.
+> - **MAC**:
+>   - Scaricare  [driver CH343](https://www.wch.cn/downloads/CH343SER_EXE.html).
+>   - Nome file: `CH34XSER_MAC.ZIP`.
+> - **Linux**:
+>   - Scaricare [driver CH343](https://github.com/Akihito44/HandMirror-AI/tree/main/CH343/Linux/ch343ser_linux).
+>   - Seguire le istruzioni contenute nel file `README.md`.
 
 ### Configurazione ESP32
 1. **Collega i servo motori** ai pin definiti in `Arduino-code.ino`:
@@ -239,6 +238,10 @@ HandMirror-AI/
   ```bash
   pip install --upgrade [nome_libreria]
   ```
+- **Altri problemi**:
+  - Consulta la sezione [issue](https://img.shields.io/github/issues/Akihito44/HandMirror-AI).
 
 ## Licenza
 Distribuito sotto licenza MIT. Vedi [LICENSE](LICENSE) per dettagli.
+
+*Creato con ❤️ da Akihito44*
