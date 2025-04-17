@@ -228,7 +228,7 @@ HandMirror-AI/
 - **Dipendenza mancante**:
   ```bash
   pip install --upgrade [nome_libreria]
-  ```COMx (Windows) o /dev/ttyUSB* (Linux)
+  ```
 
 ## 📄 Licenza
 Distribuito sotto licenza MIT. Vedi [LICENSE](LICENSE) per dettagli.
