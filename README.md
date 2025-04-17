@@ -6,14 +6,14 @@ Progetto di controllo servo motori per dita robotiche tramite riconoscimento ges
 
 ## Componenti Richiesti
 **Necessario:**
-- Modulo ESP32-S3
+- Modulo ESP32-S3 o Arduino UNO
 - 5x Servo motori (**consigliati: SG90**, qualsiasi servomotore con un angolo di rotazione di almeno 180°)
 - Alimentaione esterna da 5V
+- Jamper (M-M e M-F)
 - Webcam
 
 **Opzionale:**
 - Breadbord
-- Jamper (M-M e M-F)
 - 5x Condensatori 480μF 16V
 
 ## Software Richiesti
