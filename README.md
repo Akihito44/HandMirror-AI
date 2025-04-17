@@ -215,9 +215,6 @@ HandMirror-AI/
 ├── README.md
 └── LICENSE
 ```
-- `HandMirror-AI.py`: Script principale per tracciamento mani e comunicazione seriale.
-- `Test-HandMirror-AI.py`: Script di test per il solo tracciamento delle mani.
-- `Arduino-code.ino`: Firmware per il controllo dei servo motori.
 
 ## 🔍 Risoluzione Problemi
 - **Errore porta seriale**:
