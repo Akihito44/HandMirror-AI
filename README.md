@@ -195,35 +195,8 @@ HandMirror-AI/
 ├── images/
 |   ├── Arduino_Configuration.png
 |   ├── arduino.png
+|   ├── circuiti.png
 |   └── esp32.png
-├── CH343/
-|   ├── Linux/
-|   |   ├── ch343ser_linux/
-|   |   |   ├── driver/
-|   |   |   |   ├── .ch343.ko.cmd
-|   |   |   |   ├── .ch343.mod.cmd
-|   |   |   |   ├── .ch343.mod.o.cmd
-|   |   |   |   ├── .ch343.o.cmd
-|   |   |   |   ├── .Module.symvers.cmd
-|   |   |   |   ├── .modules.order.cmd
-|   |   |   |   ├── ch343.c
-|   |   |   |   ├── ch343.h
-|   |   |   |   ├── ch343.ko
-|   |   |   |   ├── ch343.mod
-|   |   |   |   ├── ch343.mod.c
-|   |   |   |   ├── ch343.mod.o
-|   |   |   |   ├── ch343.o
-|   |   |   |   ├── Makefile
-|   |   |   |   ├── Module.symvers
-|   |   |   |   └── modules.order
-|   |   |   └── README.md
-|   |   ├── ch343ser_linux.zip
-|   |   └── Linux.png
-|   ├── MAC/
-|   |   ├── CH34XSER_MAC.ZIP
-|   |   └── ReadMeFirst.txt
-|   └── Windows/
-|       └── CH343SER.EXE
 ├── README.md
 └── LICENSE
 ```
