@@ -201,7 +201,7 @@ HandMirror-AI/
 ## Troubleshooting
 - **Serial Port Error**:
   - Verify ESP32 is connected and recognized
-  - Ensure serial drivers are installed (CH343 driver: [download here](https://www.wch-ic.com/search?t=all&q=ch343))
+  - Ensure serial drivers are installed (CH343 driver: [download here](https://github.com/Akihito44/CH343-serial-driver))
   - Close other programs using serial port (e.g., Arduino Serial Monitor)
   - Close other programs using webcam
 - **Missing Dependency**:
