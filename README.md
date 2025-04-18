@@ -204,7 +204,7 @@ HandMirror-AI/
 ## Risoluzione Problemi
 - **Errore porta seriale**:
   - Verifica che l'ESP32 sia collegato e riconosciuto dal sistema.
-  - Assicurati che i driver della porta seriale siano installati (es. driver CH343: [scarica qui]([https://www.wch-ic.com/search?t=all&q=ch343](https://github.com/Akihito44/CH343-serial-driver))).
+  - Assicurati che i driver della porta seriale siano installati (es. driver CH343: [scarica qui](https://github.com/Akihito44/CH343-serial-driver)).
   - Chiudi altri programmi che usano la porta seriale (es: Monitor Seriale di Arduino).
   - Chiudi altri programmi che usano la webcam.
 - **Dipendenza mancante**:
