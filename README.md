@@ -197,6 +197,7 @@ HandMirror-AI/
 |   ├── arduino.png
 |   ├── circuiti.png
 |   └── esp32.png
+├── README.EN.md
 ├── README.md
 └── LICENSE
 ```
