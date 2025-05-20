@@ -40,6 +40,10 @@ def detect_fingers(image, hand_landmarks):
 # Apertura della videocamera
 cap = cv2.VideoCapture(0)
 
+# Imposta una risoluzione bilanciata
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+
 while cap.isOpened():
     success, image = cap.read()
     if not success:
