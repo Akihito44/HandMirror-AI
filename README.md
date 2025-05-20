@@ -167,7 +167,7 @@ HandMirror-AI è un sistema di controllo in real-time di una mano robotica basat
 2. **MediaPipe Hands**:
    - Modello lightweight CNN (Convolutional Neural Network)
    - Output: 21 landmark 3D per mano
-   - Precisione >95% su dataset interni
+   - Precisione 95.7% su dataset interni
    - Latenza: ~8ms su CPU moderna
 
 ### Architettura del Codice
