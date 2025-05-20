@@ -32,13 +32,13 @@ HandMirror-AI è un sistema di controllo in real-time di una mano robotica basat
 
 ## Componenti necessari
 ### Hardware richiesto
-| Componente    | Q.tà | Specifiche          |
-| ------------- | :--: | ------------------- |
-| ESP32-S3      | 1    | 240MHz, 512KB PSRAM |
-| Servo SG90    | 5    | 180°, 0.12s/60°     |
-| Alimentazione | 1    | 5 V DC              |
-| Jammer        | ~20  | M-M e M-F           |
-| Webcam        | 1    | USB o integrata     |
+| Componente    | Q.tà | Specifiche                   |
+| ------------- | :--: | ---------------------------- |
+| ESP32-S3      | 1    | 240MHz, 512KB PSRAM          |
+| Servo SG90    | 5    | 180°, 0.12s/60°              |
+| Alimentazione | 1    | 5 V DC                       |
+| Jammer        | ~20  | M-M e M-F                    |
+| Webcam        | 1    | USB o integrata (>=1280x720) |
 
 ### Hardware opzionale
 | Componente   | Q.tà | Specifiche |
