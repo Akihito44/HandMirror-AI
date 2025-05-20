@@ -6,6 +6,10 @@ import time             # Libreria per la gestione del tempo
 # Apertura della videocamera (id 0 per la videocamera predefinita)
 camera = cv2.VideoCapture(0)
 
+# Imposta una risoluzione bilanciata (1280x720)
+camera.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)  # Larghezza
+camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)  # Altezza
+
 # Inizializzazione di Mediapipe per il rilevamento delle mani
 mpHands = mp.solutions.hands         # Modulo per il rilevamento delle mani
 hands = mpHands.Hands(               # Creazione dell'oggetto per il rilevamento delle mani
