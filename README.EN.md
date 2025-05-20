@@ -32,13 +32,13 @@ HandMirror-AI is a real-time robotic hand control system powered by Artificial I
 
 ## Required Components
 ### Essential Hardware
-| Component    | Qty | Specifications       |
-| ------------ | :-: | ------------------- |
-| ESP32-S3     | 1   | 240MHz, 512KB PSRAM |
-| SG90 Servo   | 5   | 180°, 0.12s/60°     |
-| Power Supply | 1   | 5V DC               |
-| Jumper Wires | ~20 | M-M and M-F         |
-| Webcam       | 1   | USB or built-in     |
+| Component    | Qty | Specifications               |
+| ------------ | :-: | ---------------------------- |
+| ESP32-S3     | 1   | 240MHz, 512KB PSRAM          |
+| SG90 Servo   | 5   | 180°, 0.12s/60°              |
+| Power Supply | 1   | 5V DC                        |
+| Jumper Wires | ~20 | M-M and M-F                  |
+| Webcam       | 1   | USB or built-in (>=1280x720) |
 
 ### Optional Hardware
 | Component   | Qty | Specifications |
